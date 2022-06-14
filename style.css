@@ -1,7 +1,16 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   font-family: "Inconsolata", monospace;
   font-weight: 600;
 }
+
+body {
+  background-color: rgb(77, 99, 99);
+  font-size: 1.3em;
+}
+
+.calculator-grid {
+  display: flex;
+  justify-content: center;
+}
+
