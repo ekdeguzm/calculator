@@ -9,8 +9,7 @@ body {
   font-size: 1.3em;
 }
 
-.calculator-grid {
+.all-buttons {
   display: flex;
   justify-content: center;
 }
-
