@@ -17,3 +17,12 @@ body {
   grid-template-columns: repeat(5,80px);
   grid-template-rows: minmax(120px, auto) repeat(4, 100px);
 }
+
+.display {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  word-wrap: break-word;
+}
