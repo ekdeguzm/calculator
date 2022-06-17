@@ -28,6 +28,10 @@ body {
   color: white;
 }
 
+.input {
+  display: grid;
+}
+
 
 
 /* .calculator-grid {
