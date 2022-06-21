@@ -23,7 +23,7 @@ body {
 
 .output {
   width: 100%;
-  height: 20vh;
+  height: 10vh;
   background: rgb(80, 77, 77);
   color: white;
 }
@@ -33,9 +33,13 @@ body {
   grid-template-columns: 2fr 2fr 2fr 2fr;
 }
 
+button {
+  border: none;
+  
+}
 
-
-/* .calculator-grid {
+/* 
+.calculator {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -44,11 +48,11 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(4, 100px);
 }
 
-.display {
+.output {
   grid-column: 1 / -1;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
   flex-direction: column;
-  word-wrap: break-word;
-} */
+  word-wrap: break-word; */
+}
