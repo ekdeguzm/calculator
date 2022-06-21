@@ -35,7 +35,8 @@ body {
 
 button {
   border: none;
-  
+  background-color: blues;
+  padding: 1.7rem;
 }
 
 /* 
