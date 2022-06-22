@@ -52,6 +52,17 @@ button {
   padding: 25px;
 }
 
+@keyframes big {
+  0% {
+    font-size: 18px;
+  }
+  100% {
+    font-size: 30px;
+  }
+}
+
+@key
+
 
 
 /* 
