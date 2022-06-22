@@ -19,14 +19,20 @@ body {
 
 .calculator {
   width: 25%;
+  border-radius: 10px;
+  overflow: hidden;
   border: 2px solid rgb(45, 44, 44);
+  text-align: right;
 }
 
 .output {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background: rgb(80, 77, 77);
   color: white;
+  -webkit-flow-into: 2px;
+  font-size: 28px;
+  padding: 25px;
 }
 
 .input {
@@ -40,6 +46,8 @@ button {
   padding: 1.7rem;
   font-size: 14px;
 }
+
+
 
 /* 
 .calculator {
