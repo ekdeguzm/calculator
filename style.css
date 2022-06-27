@@ -13,7 +13,13 @@ body {
 
 .calculator {
   display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(5,80px);
+  grid-template-rows: minmax(120px, auto) repeat(4, 100px);
 }
+
 
 /* .calculator {
   width: 25%;
