@@ -25,6 +25,20 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(4, 100px);
 }
 
+.output {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 10px;
+  background-color: #646464d5;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
 
 /* .calculator {
   width: 25%;
