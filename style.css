@@ -116,6 +116,12 @@ button.operator {
   border-right: 2px solid white;
 }
 
+.output .previous-operand,
+.output .current-operand {
+  color: #fffffff8;
+}
+
+
 /* .calculator {
   width: 25%;
   border-radius: 10px;
