@@ -25,6 +25,19 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(4, 100px);
 }
 
+/* For small laptops and large tablets */
+
+@media only screen and (max-width: 1025px) {
+  body {
+    font-size: 1.8rem;
+  }
+
+  .calculator-grid {
+    grid-template-columns: repeat(5, 90px);
+    grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+  }
+}
+
 .output {
   grid-column: 1 / -1;
   display: flex;
