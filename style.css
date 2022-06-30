@@ -88,6 +88,9 @@ input[type="reset"] {
   background-color: #ffffff;
 }
 
+button.number {
+  background-color: #f3f3f3d5;
+}
 
 .output {
   grid-column: 1 / -1;
