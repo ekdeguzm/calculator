@@ -38,6 +38,19 @@ body {
   }
 }
 
+/* For small tablets and phones */
+
+@media only screen and (max-width: 520px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .calculator-grid {
+    grid-template-columns: repeat(5, 65px);
+    grid-template-rows: minmax(120px, auto) repeat(4, 80px);
+  }
+}
+
 .output {
   grid-column: 1 / -1;
   display: flex;
