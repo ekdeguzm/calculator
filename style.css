@@ -83,6 +83,12 @@ input[type="reset"] {
   background-color: #ffffff7e;
 }
 
+.calculator-grid > button:hover,
+.calculator-grid > button:active {
+  background-color: #ffffff;
+}
+
+
 .output {
   grid-column: 1 / -1;
   display: flex;
