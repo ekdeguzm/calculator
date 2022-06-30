@@ -121,6 +121,10 @@ button.operator {
   color: #fffffff8;
 }
 
+.output .current-operand {
+  font-size: 2em;
+  font-weight: 400;
+}
 
 /* .calculator {
   width: 25%;
