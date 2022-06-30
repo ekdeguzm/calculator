@@ -92,6 +92,10 @@ button.number {
   background-color: #f3f3f3d5;
 }
 
+button.operator {
+  background-color: #d3d3d3d5;
+}
+
 .output {
   grid-column: 1 / -1;
   display: flex;
