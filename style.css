@@ -96,6 +96,11 @@ button.operator {
   background-color: #d3d3d3d5;
 }
 
+.large-btn {
+  grid-column: span 2;
+}
+
+
 .output {
   grid-column: 1 / -1;
   display: flex;
