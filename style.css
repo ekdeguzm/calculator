@@ -76,6 +76,13 @@ input[type="reset"] {
   outline: inherit;
 }
 
+/* Custom style buttons */
+
+.calculator-grid > button {
+  border: 2px solid white;
+  background-color: #ffffff7e;
+}
+
 .output {
   grid-column: 1 / -1;
   display: flex;
