@@ -51,6 +51,20 @@ body {
   }
 }
 
+/* For small phones */
+
+@media only screen and (max-width: 425px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .calculator-grid {
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: minmax(100px, auto) repeat(4, 60px);
+  }
+}
+
+
 .output {
   grid-column: 1 / -1;
   display: flex;
