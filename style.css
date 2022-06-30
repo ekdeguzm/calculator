@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: rgb(63, 80, 80);
+  background: rgb(159 131 181);
   font-size: 1.3em;
 }
 
@@ -110,7 +110,7 @@ button.operator {
   word-wrap: break-word;
   word-break: break-all;
   padding: 10px;
-  background-color: #646464d5;
+  background-color: #9c9797d5;
   border-top: 1px solid white;
   border-left: 1px solid white;
   border-right: 1px solid white;
@@ -125,4 +125,11 @@ button.operator {
 .output .current-operand {
   font-size: 2em;
   font-weight: 400;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
 }
