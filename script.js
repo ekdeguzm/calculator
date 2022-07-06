@@ -5,3 +5,7 @@ const deleteButton = document.querySelectorAll('[data-delete]')
 const allClearButton = document.querySelector('[data-delete-all]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
+
+class Calculator {
+  
+}
