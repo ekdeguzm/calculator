@@ -20,3 +20,6 @@ clear() {
 delete() {
 }
 
+chooseOperation(operation) {
+}
+
