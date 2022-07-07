@@ -26,4 +26,7 @@ chooseOperation(operation) {
 compute() {
 }
 
+updateDisplay() {
+}
+
 
