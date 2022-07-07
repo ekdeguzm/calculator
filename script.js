@@ -15,6 +15,8 @@ class Calculator {
 }
 
 clear() {
+}
 
+delete() {
 }
 
