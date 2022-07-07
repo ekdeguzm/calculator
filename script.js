@@ -23,3 +23,7 @@ delete() {
 chooseOperation(operation) {
 }
 
+compute() {
+}
+
+
