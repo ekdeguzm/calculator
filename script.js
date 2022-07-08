@@ -35,7 +35,13 @@ class Calculator {
 
 
 
-const calculator = new Calculator(previousOperandTextElement,currentOperandTextElement)
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
+
+
+appendNumber(number) {
+  if (number === '.' && this.currentOperand.includes('.')) return
+  this.currentOperand = this.currentOperand.toString() + number.toString()
+}
 
 numberButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -44,8 +50,10 @@ numberButtons.forEach(button => {
   })
 })
 
-appendNumber(number) {
-  if (number === '.' && this.currentOperand.includes('.')) return
-  this.currentOperand = this.currentOperand.toString() + number.toString()
-}
+operationButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    calculator.chooseOperation(button,innerText)
+    calculator.updateDisplay()
+  })
+})
 
