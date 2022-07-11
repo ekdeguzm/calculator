@@ -12,6 +12,7 @@ class Calculator {
   }
 
   delete() {
+    this.currentOperand = this.currentOperand.toString().slide(0, -1)
   }
 
   chooseOperation(operation) {
