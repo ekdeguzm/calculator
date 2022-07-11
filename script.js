@@ -42,6 +42,13 @@ class Calculator {
 
   }
 
+  getDisplayNumber(number) {
+    const floatNumber = parseFloat(number)
+    if (isNaN(floatNumber)) return ''
+    return floatNumber.toLocaleString('en')
+  }
+
+
   updateDisplay() {
     this.currentOperandTextElement.innerText = 
     this.getDisplayNumber(this.currentOperand)
