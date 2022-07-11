@@ -6,6 +6,8 @@ const allClearButton = document.querySelector('[data-delete-all]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
+
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement
@@ -36,11 +38,21 @@ class Calculator {
     if (number === '.' && this.currentOperand.includes('.')) return
     this.currentOperand = this.currentOperand.toString() + number.toString()
   }
+
+  chooseOperation(operation) {
+    if (this.currentOperand === '') return
+    if (this.previousOperand !== '') {
+      this.compute()
+    }
+    this.operation = operation
+    this.previousOperand = this.currentOperand
+    this.currentOperand = ''
+  }
 }
 
 
 
-const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
+
 
 
 
