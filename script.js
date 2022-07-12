@@ -71,10 +71,10 @@ class Calculator {
 
   updateDisplay() {
     this.currentOperandTextElement.innerText = 
-    this.getDisplayNumber(this.currentOperand)
+      this.getDisplayNumber(this.currentOperand)
     if (this.operation != null) {
       this.previousOperandTextElement.innerText =
-      `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
+        `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
     } else {
       this.previousOperandTextElement.innerText = ''
     }
@@ -83,16 +83,6 @@ class Calculator {
   appendNumber(number) {
     if (number === '.' && this.currentOperand.includes('.')) return
     this.currentOperand = this.currentOperand.toString() + number.toString()
-  }
-
-  chooseOperation(operation) {
-    if (this.currentOperand === '') return
-    if (this.previousOperand !== '') {
-      this.compute()
-    }
-    this.operation = operation
-    this.previousOperand = this.currentOperand
-    this.currentOperand = ''
   }
 }
 
@@ -138,4 +128,15 @@ allClearButton.addEventListener('click', button => {
 deleteButton.addEventListener('click', button => {
   calculator.delete()
   calculator.updateDisplay()
+})
+
+// input using keyboard
+document.addEventListener('keydown', function (event) {
+  let patternForNumbers = /[0-9]/g;
+  let patternForOperators = [+\-*\/]/g
+  if (event.key.match(patternForNumbers)) {
+    event.preventDefault();
+    calculator.appendNumber(event.key)
+    calculator.updateDisplay()
+  }
 })
