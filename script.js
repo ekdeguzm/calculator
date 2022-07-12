@@ -144,6 +144,11 @@ document.addEventListener('keydown', function (event) {
     calculator.appendNumber(event.key)
     calculator.updateDisplay()
   }
+  if (event.key.match(patternForOperators)) {
+    event.preventDefault();
+    calculator.chooseOperation(event.key)
+    calculator.updateDisplay()
+  }
   if (event.key === 'Enter' || event.key === '=') {
     event.preventDefault();
     calculator.compute()
@@ -159,4 +164,5 @@ document.addEventListener('keydown', function (event) {
     calculator.clear()
     calculator.updateDisplay
   }
-})
+
+});
