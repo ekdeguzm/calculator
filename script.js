@@ -144,4 +144,19 @@ document.addEventListener('keydown', function (event) {
     calculator.appendNumber(event.key)
     calculator.updateDisplay()
   }
+  if (event.key === 'Enter' || event.key === '=') {
+    event.preventDefault();
+    calculator.compute()
+    calculator.updateDisplay
+  }
+  if (event.key === 'Backspace') {
+    event.preventDefault;
+    calculator.delete()
+    calculator.updateDisplay()
+  }
+  if (event.key == 'Delete') {
+    event.preventDefault();
+    calculator.clear()
+    calculator.updateDisplay
+  }
 })
