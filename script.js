@@ -57,10 +57,6 @@ class Calculator {
     } else {
       return integerDisplay
     }
-    
-    const floatNumber = parseFloat(number)
-    if (isNaN(floatNumber)) return ''
-    return floatNumber.toLocaleString('en')
   }
 
 
