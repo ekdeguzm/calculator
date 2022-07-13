@@ -59,7 +59,7 @@ class Calculator {
     if (isNaN(integerDigits)) {
       integerDisplay = ''
     } else {
-      integerDisplay = integerDigits.toLocaleString('en', { maximumFractionDigits: 0})
+      integerDisplay = integerDigits.toLocaleString('en', { maximumFractionDigits: 0 })
     }
     if (decimalDigits != null) {
       return `${integerDisplay}.${decimalDigits}`
@@ -133,7 +133,7 @@ deleteButton.addEventListener('click', button => {
 // input using keyboard
 document.addEventListener('keydown', function (event) {
   let patternForNumbers = /[0-9]/g;
-  let patternForOperators = /[+\-*\/]/g
+let patternForOperators = /[+\-*/]/g
   if (event.key.match(patternForNumbers)) {
     event.preventDefault();
     calculator.appendNumber(event.key)
@@ -154,7 +154,7 @@ document.addEventListener('keydown', function (event) {
     calculator.compute()
     calculator.updateDisplay()
   }
-  if (event.key === 'Backspace') {
+  if (event.key === "Backspace") {
     event.preventDefault();
     calculator.delete()
     calculator.updateDisplay()
