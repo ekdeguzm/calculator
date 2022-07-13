@@ -152,17 +152,17 @@ document.addEventListener('keydown', function (event) {
   if (event.key === 'Enter' || event.key === '=') {
     event.preventDefault();
     calculator.compute()
-    calculator.updateDisplay
+    calculator.updateDisplay()
   }
   if (event.key === 'Backspace') {
-    event.preventDefault;
+    event.preventDefault();
     calculator.delete()
     calculator.updateDisplay()
   }
   if (event.key == 'Delete') {
     event.preventDefault();
     calculator.clear()
-    calculator.updateDisplay
+    calculator.updateDisplay()
   }
 
 });
