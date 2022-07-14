@@ -25,6 +25,15 @@ class Calculator {
     this.currentOperand = ''
   }
 
+  reverseSign() {
+    if (parseFloat(this.currentOperand) > 0) {
+      this.currentOperand = parseFloat(this.currentOperand) * -1;
+      this.currentOperand = this.currentOperand.toString();
+    } else if (this.currentOperand.includes("-")) {
+      this.currentOperand = this.currentOperand.substring(1);
+    }
+  }
+
   compute() {
     let computation
     const prev = parseFloat(this.previousOperand)
@@ -95,6 +104,7 @@ const operationButtons = document.querySelectorAll('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]')
 const deleteButton = document.querySelector('[data-delete]')
 const allClearButton = document.querySelector('[data-delete-all]')
+const plusMinusButton = document.querySelector("[data-negative-positive]");
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
@@ -117,6 +127,11 @@ operationButtons.forEach(button => {
     calculator.updateDisplay()
   })
 })
+
+plusMinusButton.addEventListener("click", () => {
+  calculator.reverseSign()
+  calculator.updateDisplay()
+});
 
 equalsButton.addEventListener('click', button => {
   calculator.compute()
@@ -168,4 +183,5 @@ let patternForOperators = /[+\-*\/]/g
     calculator.updateDisplay()
   }
 
+  
 });
