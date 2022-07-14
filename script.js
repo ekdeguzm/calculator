@@ -104,7 +104,7 @@ const operationButtons = document.querySelectorAll('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]')
 const deleteButton = document.querySelector('[data-delete]')
 const allClearButton = document.querySelector('[data-delete-all]')
-const plusMinusButton = document.querySelector("[data-negative-positive]");
+const plusMinusButton = document.querySelector('[data-negative-positive]');
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
