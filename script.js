@@ -53,8 +53,6 @@ class Calculator {
       case '/':
         computation = prev / current
       break
-      case '+/-':
-        computation = -(current)
       default: 
         return
     }
@@ -167,6 +165,13 @@ let patternForOperators = /[+\-*\/]/g
     calculator.chooseOperation(event.key)
     calculator.updateDisplay()
   }
+  if (event.key === '±') {
+    event.preventDefault();
+    calculator.reverseSign()
+    calculator.updateDisplay()
+
+  }
+
   if (event.key === 'Enter' || event.key === '=') {
     event.preventDefault();
     calculator.compute()
