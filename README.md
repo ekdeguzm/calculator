@@ -17,11 +17,10 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 * JS
 
 ### Tools
-
+t 
 * Visual Studio Code
 * Mac terminal
 * Git and GitHub
-
 
 ## Outcome
 
@@ -43,7 +42,6 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 👤 **ArtisDev**
 * GitHub: [ekdeguzm](https://github.com/ekdeguzm)
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
