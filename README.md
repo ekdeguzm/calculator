@@ -17,7 +17,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 * JS
 
 ### Tools
-t 
+
 * Visual Studio Code
 * Mac terminal
 * Git and GitHub
