@@ -40,7 +40,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 ## Author
 
-👤 **ArtisDev**
+👤 **Kawayan De Guzman**
 * GitHub: [ekdeguzm](https://github.com/ekdeguzm)
 
 ## License
