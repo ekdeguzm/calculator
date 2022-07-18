@@ -2,7 +2,7 @@
 
 <img width="1010" alt="image" src="https://user-images.githubusercontent.com/35510088/179314725-55af8d34-9e8a-4f02-8c91-63e29d9d180c.png">
 
-This is a browser based calculator created using HTML, CSS, ad JavaScript.
+This is a browser based calculator created using HTML, CSS, and JavaScript.
 
 From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foundations/lessons/calculator).
 
