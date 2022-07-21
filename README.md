@@ -36,7 +36,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 * Better knowledge of **Javascript**.
 * Learned to add **keyboard support**.
-* A lot of minor things.
+* Envisioning a design and executing it
 
 ## Author
 
