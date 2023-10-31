@@ -34,6 +34,8 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 ## License
 
+MIT[LICENSE]
+
 Copyright (c) [2023] [Emil De Guzman]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
