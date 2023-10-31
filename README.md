@@ -34,4 +34,8 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 ## License
 
-[MIT](LICENSE) Copyright (c) 2022 Emil De Guzman
+My Calculator project is licensed under the MIT License Copyright (c) 2022 Emil De Guzman.
+
+See the [MIT LICENSE](LICENSE) for information on the history of this software, terms & conditions for usage, and a DISCLAIMER OF ALL WARRANTIES.
+
+All trademarks referenced herein are property of their respective holders.
