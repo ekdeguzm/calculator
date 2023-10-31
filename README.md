@@ -34,7 +34,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 ## License
 
-MIT[LICENSE]
+[MIT](LICENSE)
 
 Copyright (c) [2023] [Emil De Guzman]
 
